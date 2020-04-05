@@ -1,6 +1,8 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
+import { HashRouter as Router } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Nav.sass';
 
 class Nav extends React.Component{
@@ -26,6 +28,7 @@ class Nav extends React.Component{
 
     render(){
         return(
+            <Router>
             <Menu text vertical className='header__nav'>
                 <Menu.Item Header className='header__navbutton'>
                     {this.state.button?
@@ -56,21 +59,30 @@ class Nav extends React.Component{
                 </Menu.Item>
                 {this.state.menu?
                     <div>
-                        <Menu.Item
-                            name='home'
-                        />
-                        <Menu.Item
-                            name='about'
-                        />
-                        <Menu.Item
-                            name='skills'
-                        />
-                        <Menu.Item
-                            name='contacts'
-                        />
+                        <Link smooth to='#home'>
+                            <Menu.Item
+                                name='home'
+                            />
+                        </Link>
+                        <Link smooth to='#about'>
+                            <Menu.Item
+                                name='about'
+                            />
+                        </Link>
+                        <Link smooth to='#skills'>
+                            <Menu.Item
+                                name='skills'
+                            />
+                        </Link>
+                        <Link smooth to='#contacts'>
+                            <Menu.Item
+                                name='contacts'
+                            />
+                        </Link>
                     </div>
                 :null}
             </Menu>
+            </Router>
         );
     }
 }

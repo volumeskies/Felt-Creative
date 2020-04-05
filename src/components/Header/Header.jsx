@@ -1,13 +1,18 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import Nav from '../Nav/Nav.jsx';
+import TypeWriter from 'react-typewriter';
 import './Header.sass';
 
 class Header extends React.Component{
     render(){
         return(
-            <div className='header'>
+            <div id='home' className='header'>
             <Nav/>
+            <TypeWriter typing={1} initDelay={2000} minDelay={5} className='header__main'>
+                <p>Hey! It's Tanya.</p>
+                <p>I've got something to show you...</p>
+            </TypeWriter>
             <Particles
             className='header__particles'
       params={{
