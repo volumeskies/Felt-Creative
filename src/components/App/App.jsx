@@ -6,9 +6,7 @@ import './App.sass';
 class App extends React.Component{
     render(){
         return(
-            <>
             <Header/>
-            </>
         );
     }
 }

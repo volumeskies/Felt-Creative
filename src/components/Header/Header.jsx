@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Particles from 'react-particles-js';
+import Nav from '../Nav/Nav.jsx';
 import './Header.sass';
 
 class Header extends React.Component{
     render(){
         return(
             <div className='header'>
+            <Nav/>
             <Particles
+            className='header__particles'
       params={{
         "particles": {
           "number": {
@@ -117,6 +120,7 @@ class Header extends React.Component{
         },
         "retina_detect": true
       }}
+      height='100vh'
     />
             </div>
         );
