@@ -6,7 +6,7 @@
 npm run start
 ```
 yes, that's it
-###GitHub Pages
+### GitHub Pages
 currently I'm trying to get with GitHub Pages
 you can visit my site but there is no images yet
 well, in case you are bored and want to read something
