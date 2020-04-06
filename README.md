@@ -6,7 +6,12 @@
 npm run start
 ```
 yes, that's it
-
+###GitHub Pages
+currently I'm trying to get with GitHub Pages
+you can visit my site but there is no images yet
+well, in case you are bored and want to read something
+(I'm trying to figure out what is the problem, I'll fix it. promise)
+[demo](https://volumeskies.github.io/Felt-Creative/)
 
 
 
