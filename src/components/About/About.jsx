@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.sass';
 
+import meImage from '../../../public/me.jpg';
+
 class About extends React.Component{
     constructor(props){
         super(props);
@@ -27,7 +29,7 @@ class About extends React.Component{
                     </p>
                 </section>
                 <section className='card__photo'>
-                    <img src='../../../public/me.jpg' alt=''></img>
+                    <img src={meImage} alt=''></img>
                 </section>
             </div>
         );
