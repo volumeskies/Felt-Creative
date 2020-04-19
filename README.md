@@ -7,5 +7,5 @@ npm run start
 ```
 yes, that's it
 ## GitHub Pages
-thanks to my interviewer it's wokring! :rainbow: :tada:
-[demo](https://volumeskies.github.io/Felt-Creative/)
+thanks to my interviewer it's wokring! :rainbow: :tada:<br/>
+[LIVE DEMO](https://volumeskies.github.io/Felt-Creative/)
