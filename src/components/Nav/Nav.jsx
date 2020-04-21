@@ -82,7 +82,7 @@ class Nav extends React.Component{
                     </div>
                 :null}
             </Menu>
-            </Router>
+    </Router>
         );
     }
 }

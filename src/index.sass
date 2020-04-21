@@ -4,3 +4,50 @@
 @import './components/Header/Header.sass'
 @import './components/Nav/Nav.sass'
 @import './components/Skills/Skills.sass'
+@media screen and (max-width: 1280px)
+  body
+    font-size: 12px !important
+  .card
+    &__about
+      margin-left: 6.5em
+
+@media screen and (max-width: 1110px)
+  body
+    font-size: 11px !important
+  .ui.vertical.text.menu .item
+    font-size: 10px
+  .card
+    height: 500px
+    &__heading
+      top: 8%
+    &__about
+      margin-left: 6em
+
+@media screen and (max-width: 1020px)
+  body
+    font-size: 10px !important
+  .ui.vertical.text.menu .item
+    font-size: 9px
+  .card
+    height: 400px
+    &__heading
+      top: 7%
+
+@media screen and (max-width: 914px)
+  body
+    font-size: 9px !important
+  .ui.vertical.text.menu .item
+    font-size: 8px
+  .card
+    height: 400px
+    &__heading
+      top: 7%
+    &__about
+      margin-top: 6em
+
+@media screen and (max-width: 820px)
+  .card
+    &__name
+      font-size: 3.6em
+    &__about
+      margin-top: 6em

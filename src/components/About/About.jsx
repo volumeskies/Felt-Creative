@@ -12,10 +12,11 @@ class About extends React.Component{
     }
     render(){
         return(
-            <div id='about' className='card'>
+            <>
+            <section id='about' className='card'>
                 <h2 className='card__name'>WHO IS TANYA?</h2>
                 <section className='card__about'>
-                    <p>That is me, this looking-up-with-hope face at the right side of the page. You want to know why am I so encouraged?
+                    <p>That is me, this looking-up-with-hope face. You want to know why am I so encouraged?
                         That is because few days ago I found out that I have a great chance to be a part of JetBrains Community.
                         The person reading this might be the one who will open for me these gates to the big world of gaining useful and powerful experience.
                         Isn't that inspiring enough?...
@@ -31,7 +32,8 @@ class About extends React.Component{
                 <section className='card__photo'>
                     <img src={meImage} alt=''></img>
                 </section>
-            </div>
+            </section>
+            </>
         );
     };
 }

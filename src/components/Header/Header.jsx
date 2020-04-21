@@ -7,7 +7,8 @@ import './Header.sass';
 class Header extends React.Component{
     render(){
         return(
-            <div id='home' className='header'>
+            <>
+            <header id='home' className='header'>
             <Nav/>
             <TypeWriter typing={1} initDelay={2000} minDelay={5} className='header__main'>
                 <p>Hey! It's Tanya.</p>
@@ -127,7 +128,8 @@ class Header extends React.Component{
       }}
       height='100vh'
     />
-            </div>
+            </header>
+            </>
         );
     }
 }

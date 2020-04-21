@@ -7,7 +7,8 @@ class Contacts extends React.Component{
     }
     render(){
         return(
-            <div id='contacts' className='card'>
+            <>
+            <section id='contacts' className='card'>
                 <h2 className='card__heading-contacts'>CONTACTS</h2>
                 <div className='card__contacts'>
                     <div className='card__social'>
@@ -22,7 +23,8 @@ class Contacts extends React.Component{
                         <a href='https://vk.com/molchanie11'>VK</a>
                     </div>
                 </div>
-            </div>
+            </section>
+            </>
         );
     }
 }

@@ -7,7 +7,8 @@ class Skills extends React.Component{
     }
     render(){
         return(
-            <div id='skills' className='card'>
+            <>
+            <section id='skills' className='card'>
                 <h2 className='card__heading'>SKILLS</h2>
                 <section className='card__skills'>
                     <div className='card__first-row'>
@@ -26,7 +27,8 @@ class Skills extends React.Component{
                         <span>Git</span>
                     </div>
                 </section>
-            </div>
+            </section>
+            </>
         );
     }
 }
